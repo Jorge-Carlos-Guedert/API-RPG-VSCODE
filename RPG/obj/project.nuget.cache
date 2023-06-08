@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "QRln9XiS3E5XqjrEcccFaEwGwlnkcafO1cqFIayizI/xXUGzhKKmFGF60D7I6KEQLC55+fJ/vVLJjN/ehxtDbA==",
+  "dgSpecHash": "M3r0t9toQVY43wfZ+ZeCds7aV2Vgk7SpsNO7YWZvUu3LXn2bO/n0x+JaFUH8kMF6s/MnssAx7GqwiQBX6dUmXA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\aluno\\Desktop\\API-RPG-VSCODE\\RPG\\RPG.csproj",
+  "projectFilePath": "C:\\Users\\aluno\\Desktop\\CRUD\\API-RPG-VSCODE\\rpg\\RPG.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\aluno\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
     "C:\\Users\\aluno\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",

@@ -60,6 +60,10 @@ namespace Rpg.Controllers
             if (novo.Id == 0 && personagens.Count > 0)//SEM EXPRESSÃO TERNÁRIA
                 novo.Id = personagens[personagens.Count - 1].Id + 1;
 
+                if(personagens.Count == 0){
+                    novo.Id = 1;
+                }
+
             //COM EXPRESSÃO TERNÁRIA
             //novo.Id = novo.Id == 0 ? personagens[personagens.Count - 1].Id + 1 : novo.Id;
 
@@ -68,7 +72,7 @@ namespace Rpg.Controllers
         }
 
         [HttpPut("{id}")]
-        public async Task<ActionResult<List<Personagem>>> AlteraPersonagem(int id, [FromBoody] Personagem editar)
+        public async Task<ActionResult<List<Personagem>>> AlteraPersonagem(int id, [FromBody] Personagem editar)
         {
             var pesquisa = personagens.Find(x => x.Id == id);
 
